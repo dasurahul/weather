@@ -56,17 +56,23 @@ class Search extends React.Component {
             />
           </div>
         </form>
-        {this.state.name && this.state.country && this.state.temperature && (
-          <Weather
-            name={this.state.name}
-            country={this.state.country}
-            temperature={this.state.temperature}
-            description={this.state.description}
-            maxTemperature={this.state.maxTemperature}
-            minTemperature={this.state.minTemperature}
-            windSpeed={this.state.windSpeed}
-          />
-        )}
+        {this.state.name &&
+          this.state.country &&
+          this.state.temperature &&
+          this.state.description &&
+          this.state.maxTemperature &&
+          this.state.minTemperature &&
+          this.state.windSpeed && (
+            <Weather
+              name={this.state.name}
+              country={this.state.country}
+              temperature={this.state.temperature}
+              description={this.state.description}
+              maxTemperature={this.state.maxTemperature}
+              minTemperature={this.state.minTemperature}
+              windSpeed={this.state.windSpeed}
+            />
+          )}
       </>
     );
   }
