@@ -1,0 +1,25 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  max-width: 50%;
+  margin-inline: auto;
+  margin-bottom: 1.5rem;
+}
+
+.input-container img {
+  width: 1rem;
+}
+
+.input-container input {
+  background-color: transparent;
+  border: none;
+  flex-grow: 1;
+}
+
+.input-container input:focus {
+  outline: none;
+}

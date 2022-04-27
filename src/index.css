@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  color: #777777;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}

@@ -1,5 +1,15 @@
+import Header from "./components/Header.component";
+import Search from "./components/Search.component";
+
+import "./App.css";
+
 const App = () => {
-  return <h1>Weather App</h1>;
+  return (
+    <div className="container">
+      <Header />
+      <Search />
+    </div>
+  );
 };
 
 export default App;
